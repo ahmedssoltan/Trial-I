@@ -1,0 +1,28 @@
+.flex-container{
+    height: 800px;
+    background-color: #09c;
+    display: flex ;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-items:center
+}
+
+.item{
+    height: 150px;
+    width:20%;
+    background-color: gray;
+    font-size:30px;
+    text-align: center;
+    color: red
+}
+i{
+    color:red;
+    border-radius: 50%;
+    padding: 20px;
+    border:1px solid #ccc;
+    transition: all 1s
+}
+i:hover{
+    background-color: #ccc
+}
